@@ -13,3 +13,5 @@ Ardından kendi repository'nde bu repoya tıklayıp clone'lamalısın. Klonlama 
 Bu yalnızca ilk kurulum için. Eğer daha sonra çalışmaya devam etmek istersen `npm run dev` ile çalıştırman yeterli.
 
 Başarılı bir şekilde çalıştırdıysan tarayıcıda boş bir sekme açılacak. Terminali kapatmadan eğer klasördeki HTML dosyasını güncelleyip kaydedersen otomatik olarak tarayıcıdaki sekmenin de güncellendiğini göreceksin. Ek olarak kaydettiğin zaman dosya kendi kendine kod yapısını düzenleyecek. Bunun şimdilik en ideal geliştirme ortamı olduğuna inanıyorum. Artık videodaki eğitim içeriği ile devam etmeye hazırsın. Başarılar!
+
+- Meriç Cintosun bu repoyu forkladı.
