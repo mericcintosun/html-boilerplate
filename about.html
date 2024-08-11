@@ -1,13 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>
-        <a href="/">Hello, World!</a>
-    </h1>
-</body>
+    <style>
+        table, tr, th, td, caption {
+            border: 1px solid #eee;
+            font-family: 'Courier New', Courier, monospace;
+            border-collapse: collapse;
+            padding: 0.5rem;
+        }
+        body {
+            background-color: #333;
+            color: whitesmoke;
+        }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Time</th>
+        <th>Activity</th>
+    </tr>
+        <tr>
+        <td>
+          <time datetime="08.00">8am</time>-<time datetime="11:00">11am</time>
+        </td>
+        <td>Good Morning</td>
+      </tr>
+      <tr>
+        <td>
+          <time datetime="11.00">11am</time>-<time datetime="12:00">12am</time>
+        </td>
+        <td>Eat Launch</td>
+      </tr>
+      <tr>
+        <td>
+          <time datetime="12.00">12am</time>-<time datetime="17:00">17am</time>
+        </td>
+        <td>Study for Other Courses</td>
+      </tr>
+    </table>
+  </body>
 </html>

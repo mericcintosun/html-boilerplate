@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms and Inputs</title>
+    <style>
+      body {
+        background-color: #333;
+        color: whitesmoke;
+        font-family: "Gill Sans", sans-serif;
+      }
+      .textarea {
+        font-family: 'Gill Sans' , sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+    
+    
+    Notes:
+    -
+    -
+    -
+
+
+    -->
+
+    <article id="contact">
+      <h2>Contact Me</h2>
+      <p>I'd really like to hear from you!</p>
+
+      <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+          <legend>Personal Info</legend>
+          <p>
+            <label for="firstName">First Name</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="Meriç"
+              autocomplete="on"
+              required
+              autofocus
+            />
+          </p>
+          <p>
+            <label for="lastName">Last Name</label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Cintosun"
+              autocomplete="on"
+              required
+            />
+          </p>
+          <p>
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="password.."
+              required
+            />
+          </p>
+          <p>
+            <label for="phone">Phone</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="555-555-5555"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required
+            />
+          </p>
+          <p>
+            <label for="phone">Decade</label>
+            <input
+              type="number"
+              name="decade"
+              id="decade"
+              min="1950"
+              max="2020"
+              step="10"
+              value="1980"
+            />
+          </p>
+          <p>
+            <label for="coffee">Favorite Coffee:</label>
+            <select name="coffee" id="coffee">
+              <optgroup label="Coffee">
+                <option value="regular coffee">Regular Coffee</option>
+                <option value="iced coffee">Iced Coffee</option>
+              </optgroup>
+              <optgroup label="Espresso Drinks">
+                <option value="latte">Latte</option>
+                <option value="cappuccino">Cappuccino</option>
+                <option value="cortado">Cortado</option>
+                <option value="americano">Americano</option>
+                <option value="other">Other</option>
+              </optgroup>
+            </select>
+          </p>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>What is your favorite food?</legend>
+          <p>
+            <input type="radio" name="food" id="tacos" value="tacos" />
+            <label for="tacos">Tacos</label>
+          </p>
+          <p>
+            <input type="radio" name="food" id="pizza" value="pizza" />
+            <label for="pizza">Pizza</label>
+          </p>
+          <p>
+            <input type="radio" name="food" id="otherr" value="other" />
+            <label for="tacos">Other</label>
+          </p>
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend>Do you have pets?</legend>
+          <p>
+            <input type="checkbox" name="pets" id="dogs" value="dog" />
+            <label for="dogs" id="dog">Dog</label>
+          </p>
+          <p>
+            <input type="checkbox" name="pets" id="cats" value="cat" />
+            <label for="cats" id="cat">Cat</label>
+          </p>
+          <p>
+            <input type="checkbox" name="pets" id="fishs" value="fish" />
+            <label for="fishs" id="fish">Fish</label>
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              name="pets"
+              id="other"
+              value="other pets.."
+            />
+            <label for="other" id="otherPets">Others</label>
+          </p>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Send Me A Note</legend>
+          <label for="message">Your message:</label> <br />
+          <textarea class="textarea"
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Your message.."
+          ></textarea>
+        </fieldset> <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </article>
+  </body>
+</html>
