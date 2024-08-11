@@ -1,0 +1,23 @@
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    background-color: #333;
+    color: whitesmoke;
+    font-family: Verdana, sans-serif;
+}
+th, td, caption {
+    border: 1px solid whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+#nav-list a {
+    color: whitesmoke;
+}
+textarea {
+    font-family: Verdana, sans-serif;
+}
