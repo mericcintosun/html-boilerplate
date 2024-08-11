@@ -15,3 +15,14 @@ Bu yalnızca ilk kurulum için. Eğer daha sonra çalışmaya devam etmek isters
 Başarılı bir şekilde çalıştırdıysan tarayıcıda boş bir sekme açılacak. Terminali kapatmadan eğer klasördeki HTML dosyasını güncelleyip kaydedersen otomatik olarak tarayıcıdaki sekmenin de güncellendiğini göreceksin. Ek olarak kaydettiğin zaman dosya kendi kendine kod yapısını düzenleyecek. Bunun şimdilik en ideal geliştirme ortamı olduğuna inanıyorum. Artık videodaki eğitim içeriği ile devam etmeye hazırsın. Başarılar!
 
 - Meriç Cintosun bu repoyu forkladı.
+
+# Semantic Tags
+- section
+- nav
+- header
+- article
+- aside
+- footer
+- main
+
+- aria- label
